@@ -1,0 +1,45 @@
+{
+  "error.login_required": {
+    "description": "This happens when unauthorized user trying to access someone's server settings.",
+    "message": "This page requires Discord login."
+  },
+
+  "error.invalid_query": {
+    "description": "This happens when someone trying to access unknown URL route.",
+    "message": "Invalid URL query."
+  },
+
+  "error.invalid_id": {
+    "message": "Invalid bot/guild ID. It must be between 17 and 21 digits."
+  },
+
+  "error.invalid_user": {
+    "message": "Unable to retrieve Discord user data. Try again later."
+  },
+
+  "error.invalid_bot_customer": {
+    "message": "The assigned bot ID is not registered in our system."
+  },
+
+  "error.invalid_guild": {
+    "message": "Invalid Discord server."
+  },
+
+  "error.invalid_guilds_list": {
+    "message": "You don't have at least one manageable Discord servers."
+  },
+
+  "error.no_guilds_to_edit": {
+    "message": "You don't have permissions to access the content in this server. You need Administrator or at least Manage Guild permissions."
+  },
+
+  "error.profile_client_return_none": {
+    "description": "It happens when the user is unable to reach our server and get list of purchased bots on their profile page.",
+    "message": "Unable to retrieve bots list from our backend. Try again later."
+  },
+
+  "error.unexpected_error": {
+    "description": "It happens when none of the errors above is presented.",
+    "message": "An unexpected error occurred. Please contact cDev team for a further checking."
+  }
+}
